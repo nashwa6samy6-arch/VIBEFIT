@@ -1,8 +1,6 @@
 import React from 'react'
 export function generateStaticParams() {
-  return [
-    { slug: 'example' } 
-  ];
+  return [ { slug: 'test-page' } ]
 }
 
 export default function SinglePage
