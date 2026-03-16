@@ -5,6 +5,7 @@ import Menu from '../ui/Menu'
 import SearchBar from '../ui/SearchBar'
 import NavIcons from '../ui/NavIcons'
 
+
 export default function Navbar() {
   return (
     

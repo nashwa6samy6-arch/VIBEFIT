@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+const basePath = process.env.NODE_ENV === 'production' ? '/VIBEFIT' : '';
 export default function SearchBar() {
 
     const router = useRouter();
@@ -28,7 +29,7 @@ export default function SearchBar() {
         className="flex-1 bg-transparent outline-none"
       />
       <button className="cursor-pointer">
-        <Image src="/images/search.png" alt="" width={16} height={16} />
+        <Image src={`${basePath}/images/hero7.jpg`} alt="" width={16} height={16} />
       </button>
     </form>
   );

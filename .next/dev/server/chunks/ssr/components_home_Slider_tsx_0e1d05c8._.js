@@ -15,12 +15,13 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 ;
+const basePath = ("TURBOPACK compile-time falsy", 0) ? "TURBOPACK unreachable" : '';
 const slides = [
     {
         id: 1,
         title: "Summer Sale Collections",
         description: "Sale! Up to 50% off!",
-        img: "/images/hero7.jpg",
+        img: `${basePath}/images/hero7.jpg`,
         url: "/",
         bg: "bg-gradient-to-r from-purple-100 to-orange-100"
     },
@@ -28,7 +29,7 @@ const slides = [
         id: 2,
         title: "Winter Sale Collections",
         description: "Sale! Up to 50% off!",
-        img: "/images/hero5.jpg",
+        img: `${basePath}/images/hero5.jpg`,
         url: "/",
         bg: "bg-gradient-to-r from-orange-100 to-white-100"
     },
@@ -36,7 +37,7 @@ const slides = [
         id: 3,
         title: "Spring Sale Collections",
         description: "Sale! Up to 50% off!",
-        img: "/images/hero2.jpg",
+        img: `${basePath}/images/hero2.jpg`,
         url: "/",
         bg: "bg-gradient-to-r from-pink-100 to-cyan-100"
     }
@@ -68,7 +69,7 @@ function Slider() {
                                         children: slides.description
                                     }, void 0, false, {
                                         fileName: "[project]/components/home/Slider.tsx",
-                                        lineNumber: 55,
+                                        lineNumber: 56,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -76,7 +77,7 @@ function Slider() {
                                         children: slides.title
                                     }, void 0, false, {
                                         fileName: "[project]/components/home/Slider.tsx",
-                                        lineNumber: 58,
+                                        lineNumber: 59,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -86,18 +87,18 @@ function Slider() {
                                             children: "SHOP NOW"
                                         }, void 0, false, {
                                             fileName: "[project]/components/home/Slider.tsx",
-                                            lineNumber: 62,
+                                            lineNumber: 63,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/home/Slider.tsx",
-                                        lineNumber: 61,
+                                        lineNumber: 62,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/home/Slider.tsx",
-                                lineNumber: 54,
+                                lineNumber: 55,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -110,23 +111,23 @@ function Slider() {
                                     className: "object-top object-cover"
                                 }, void 0, false, {
                                     fileName: "[project]/components/home/Slider.tsx",
-                                    lineNumber: 70,
+                                    lineNumber: 71,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/home/Slider.tsx",
-                                lineNumber: 69,
+                                lineNumber: 70,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, slides.id, true, {
                         fileName: "[project]/components/home/Slider.tsx",
-                        lineNumber: 49,
+                        lineNumber: 50,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/home/Slider.tsx",
-                lineNumber: 46,
+                lineNumber: 47,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -138,23 +139,23 @@ function Slider() {
                             className: "w-[6px] h-[6px] rounded-full bg-gray-600"
                         }, void 0, false, {
                             fileName: "[project]/components/home/Slider.tsx",
-                            lineNumber: 89,
+                            lineNumber: 90,
                             columnNumber: 13
                         }, this)
                     }, slide.id, false, {
                         fileName: "[project]/components/home/Slider.tsx",
-                        lineNumber: 83,
+                        lineNumber: 84,
                         columnNumber: 9
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/home/Slider.tsx",
-                lineNumber: 81,
+                lineNumber: 82,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/home/Slider.tsx",
-        lineNumber: 45,
+        lineNumber: 46,
         columnNumber: 5
     }, this);
 }

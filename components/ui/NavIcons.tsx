@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import CartModal from "./CartModal";
+const basePath = process.env.NODE_ENV === 'production' ? '/VIBEFIT' : '';
 
 export default function NavIcons() {
   const [isProfileOpen, setIsProfileOpen] = useState(false);
@@ -25,7 +26,7 @@ export default function NavIcons() {
     <div className="flex items-center gap-4 xl:gap-6 relative">
       <button onClick={handleProfile} className="cursor-pointer">
         <Image
-          src="/images/profile.png"
+          src={`${basePath}/images/profile.jpg`}
           alt=""
           width={22}
           height={22}
@@ -38,7 +39,7 @@ export default function NavIcons() {
         </div>
       )}
       <Image
-        src="/images/notification.png"
+        src={`${basePath}/images/notification.png`}
         alt=""
         width={22}
         height={22}
@@ -47,7 +48,7 @@ export default function NavIcons() {
       <div className="relative">
         <button onClick={() => setIsCartOpen((prev) => !prev)}>
           <Image
-          src="/images/cart.png"
+          src={`${basePath}/images/cart.png`}
           alt=""
           width={22}
           height={22}

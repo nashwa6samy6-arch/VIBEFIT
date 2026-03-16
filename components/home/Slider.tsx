@@ -2,13 +2,14 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+const basePath = process.env.NODE_ENV === 'production' ? '/VIBEFIT' : '';
 
 const slides = [
   {
     id: 1,
     title: "Summer Sale Collections",
     description: "Sale! Up to 50% off!",
-    img: "/images/hero7.jpg",
+    img: `${basePath}/images/hero7.jpg`,
     url: "/",
     bg: "bg-gradient-to-r from-purple-100 to-orange-100",
   },
@@ -16,7 +17,7 @@ const slides = [
     id: 2,
     title: "Winter Sale Collections",
     description: "Sale! Up to 50% off!",
-    img: "/images/hero5.jpg",
+    img: `${basePath}/images/hero5.jpg`,
     url: "/",
     bg: "bg-gradient-to-r from-orange-100 to-white-100",
   },
@@ -24,7 +25,7 @@ const slides = [
     id: 3,
     title: "Spring Sale Collections",
     description: "Sale! Up to 50% off!",
-    img: "/images/hero2.jpg",
+    img: `${basePath}/images/hero2.jpg`,
     url: "/",
     bg: "bg-gradient-to-r from-pink-100 to-cyan-100",
   },
