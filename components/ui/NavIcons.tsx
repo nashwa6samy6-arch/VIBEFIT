@@ -26,7 +26,7 @@ export default function NavIcons() {
     <div className="flex items-center gap-4 xl:gap-6 relative">
       <button onClick={handleProfile} className="cursor-pointer">
         <Image
-          src={`${basePath}/images/profile.jpg`}
+          src={`${basePath}/images/profile.png`}
           alt=""
           width={22}
           height={22}

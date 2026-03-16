@@ -29,7 +29,7 @@ export default function SearchBar() {
         className="flex-1 bg-transparent outline-none"
       />
       <button className="cursor-pointer">
-        <Image src={`${basePath}/images/hero7.jpg`} alt="" width={16} height={16} />
+        <Image src={`${basePath}/images/search.png`} alt="" width={16} height={16} />
       </button>
     </form>
   );
