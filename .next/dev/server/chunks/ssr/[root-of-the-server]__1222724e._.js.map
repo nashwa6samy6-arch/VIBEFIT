@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///D:/Frontend%20Real%20Projects/e-commerce-app/app/page.tsx"],"sourcesContent":["import Slider from \"../components/home/Slider\";\n\nexport default function Home() {\n  return (\n    <>\n    {/* <Slider/> */}\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAEe,SAAS;IACtB,qBACE;AAIJ"}}]
+}

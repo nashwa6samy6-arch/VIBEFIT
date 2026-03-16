@@ -1,0 +1,9 @@
+[00:00:02.347] Server  LOG     ✓ Ready in 1597ms
+[00:00:04.693] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.728] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.525] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:00:06.280] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:00:14.822] Browser WARN    Image with src "/images/hero7.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:19.340] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:20.058] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.

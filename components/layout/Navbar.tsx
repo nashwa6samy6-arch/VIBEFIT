@@ -10,7 +10,7 @@ export default function Navbar() {
     
     <div className='h-20 px-4 md:px-8 lg:px-16 xl:32 2xl:px-64 relative bg-white'>
       {/* MOBILE */}
-      <div className="h-full flex items-center justify-between md:hidden bg-gray-200">
+      <div className="h-full flex items-center justify-between md:hidden bg-gray-200 ">
       <Link href="/">
       <div className="text-2xl tracking-wide font-anton font-normal not-italic">VIBEFIT</div>
       </Link>
