@@ -1,88 +1,2674 @@
-[00:00:02.347] Server  LOG     ✓ Ready in 1597ms
-[00:00:04.693] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:04.728] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.525] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
-[00:00:06.280] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
-[00:00:14.822] Browser WARN    Image with src "/images/hero7.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:19.340] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:20.058] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
-[00:09:09.328] Browser WARN    Image with src "/images/hero7.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:12:07.825] Server  LOG     ✓ Compiled in 101ms
-[00:12:09.128] Server  LOG     ✓ Compiled in 189ms
-[00:13:31.988] Server  LOG     ✓ Compiled in 55ms
-[00:13:41.471] Server  LOG     ✓ Compiled in 57ms
-[00:13:44.117] Server  LOG     ✓ Compiled in 48ms
-[00:15:22.695] Server  LOG     ✓ Compiled in 38ms
-[00:15:23.510] Server  LOG     ✓ Compiled in 47ms
-[00:15:29.973] Server  LOG     ✓ Compiled in 39ms
-[00:15:30.567] Server  LOG     ✓ Compiled in 36ms
-[00:16:59.502] Server  LOG     ✓ Compiled in 131ms
-[00:17:00.342] Browser ERROR   ./components/ui/SearchBar.tsx:32:20
+[00:00:03.272] Server  LOG     ✓ Ready in 2.4s
+[00:00:06.979] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:08.027] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:01:19.688] Server  LOG     ✓ Compiled in 148ms
+[00:21:18.063] Server  ERROR   ⨯ ReferenceError: ProductLis is not defined
+[00:21:18.329] Browser ERROR   uncaughtError: ReferenceError: ProductLis is not defined
+[00:21:18.363] Server  LOG     ✓ Compiled in 29ms
+[00:21:18.489] Server  ERROR   ⨯ ReferenceError: ProductLi is not defined
+[00:21:18.762] Server  LOG     ✓ Compiled in 35ms
+[00:21:18.990] Server  LOG     ✓ Compiled in 69ms
+[00:21:19.216] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:19.230] Server  LOG     ✓ Compiled in 33ms
+[00:21:19.489] Server  ERROR   ⨯ ReferenceError: Prod is not defined
+[00:21:19.896] Server  LOG     ✓ Compiled in 0ms
+[00:21:20.062] Server  LOG     ✓ Compiled in 48ms
+[00:21:20.359] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:21.460] Browser ERROR   uncaughtError: ReferenceError: Prod is not defined
+[00:21:21.460] Browser ERROR   ./app/page.tsx:15:5
 Parsing ecmascript source code failed
-  30 |       />
-  31 |       <button className="cursor-pointer">
-> 32 |         <Image src=`${basePath}/images/hero7.jpg` alt="" width={16} height={16} />
-     |                    ^^^
-  33 |       </button>
-  34 |     </form>
-  35 |   );
+  13 |       <h1 className="text-2xl">Categories</h1>
+  14 |       </>
+> 15 |     </div>
+     |     ^
+  16 |     <div className="mt-24 px-4 md:px-8 lg:px-16 xl:32 2xl:px-64">
+  17 |       <h1 className="text-2xl">Featured Products</h1>
+  18 |       <ProductList/>
 
-Expected '</', got 'template head'
+Expression expected
+[00:21:21.460] Browser ERROR   ./app/page.tsx:15:6
+Parsing ecmascript source code failed
+  13 |       <h1 className="text-2xl">Categories</h1>
+  14 |       </>
+> 15 |     </div>
+     |      ^^^^^
+  16 |     <div className="mt-24 px-4 md:px-8 lg:px-16 xl:32 2xl:px-64">
+  17 |       <h1 className="text-2xl">Featured Products</h1>
+  18 |       <ProductList/>
+
+Unterminated regexp literal
+[00:21:21.460] Browser ERROR   ./app/page.tsx:15:5
+Parsing ecmascript source code failed
+  13 |       <h1 className="text-2xl">Categories</h1>
+  14 |       </>
+> 15 |     </div>
+     |     ^
+  16 |     <div className="mt-24 px-4 md:px-8 lg:px-16 xl:32 2xl:px-64">
+  17 |       <h1 className="text-2xl">Featured Products</h1>
+  18 |       <ProductList/>
+
+Expression expected
+[00:21:21.460] Browser ERROR   ./app/page.tsx:15:6
+Parsing ecmascript source code failed
+  13 |       <h1 className="text-2xl">Categories</h1>
+  14 |       </>
+> 15 |     </div>
+     |      ^^^^^
+  16 |     <div className="mt-24 px-4 md:px-8 lg:px-16 xl:32 2xl:px-64">
+  17 |       <h1 className="text-2xl">Featured Products</h1>
+  18 |       <ProductList/>
+
+Unterminated regexp literal
+[00:21:23.973] Server  ERROR   ⨯ ReferenceError: C is not defined
+[00:21:24.544] Server  LOG     ✓ Compiled in 89ms
+[00:21:24.690] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:25.469] Browser ERROR   uncaughtError: ReferenceError: C is not defined
+[00:21:26.353] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:21:26.365] Server  LOG     ✓ Compiled in 58ms
+[00:21:26.530] Server  ERROR   ⨯ ReferenceError: Cat is not defined
+[00:21:26.978] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:27.026] Server  LOG     ✓ Compiled in 1ms
+[00:21:27.189] Browser ERROR   uncaughtError: ReferenceError: Cat is not defined
+[00:21:27.346] Server  ERROR   ⨯ ReferenceError: Categ is not defined
+[00:21:27.722] Server  LOG     ✓ Compiled in 69ms
+[00:21:28.102] Server  LOG     ✓ Compiled in 55ms
+[00:21:28.138] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:28.544] Server  ERROR   ⨯ ReferenceError: Categori is not defined
+[00:21:28.715] Browser ERROR   uncaughtError: ReferenceError: Categ is not defined
+[00:21:28.787] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:21:28.994] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:29.467] Browser ERROR   uncaughtError: ReferenceError: Categori is not defined
+[00:21:30.608] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:21:34.309] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:36.088] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:21:56.183] Server  LOG     ✓ Compiled in 61ms
+[00:21:56.873] Server  LOG     ✓ Compiled in 74ms
+[00:21:57.053] Server  LOG     ✓ Compiled in 73ms
+[00:21:59.592] Server  LOG     ✓ Compiled in 91ms
+[00:26:39.463] Browser ERROR   ./app/page.tsx:23:1
+Parsing ecmascript source code failed
+  21 |     <>
+  22 |   );
+> 23 | }
+     | ^
+  24 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+[00:26:52.626] Browser WARN    Image with src "/images/hero7.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:37:27.605] Server  LOG     ✓ Compiled in 31ms
+[00:37:28.481] Server  LOG     ✓ Compiled in 113ms
+[00:37:37.611] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true c c true c
+[00:37:38.473] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true cla cla true cla
+[00:37:38.473] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:37:42.458] Browser ERROR   ./components/category/CategoryList.tsx:5:20
+Parsing ecmascript source code failed
+   3 | export default function CategoryList() {
+   4 |   return (
+>  5 |     <div className='>
+     |                    ^^
+>  6 |
+     | ^
+>  7 |     </div>
+     | ^
+>  8 |   )
+     | ^
+>  9 | }
+     | ^
+> 10 |
+     | ^
+
+Unterminated string constant
 
 Import trace:
   Server Component:
-    ./components/ui/SearchBar.tsx
-    ./components/layout/Navbar.tsx
-    ./app/layout.tsx
-[00:17:01.800] Server  LOG     ✓ Compiled in 44ms
-[00:17:02.424] Browser WARN    Image with src "http://localhost:3000/images/hero7.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:17.179] Server  LOG     ✓ Compiled in 65ms
-[00:17:17.338] Browser ERROR   ./components/ui/NavIcons.tsx:29:15
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:37:43.472] Browser ERROR   ./components/category/CategoryList.tsx:5:19
 Parsing ecmascript source code failed
-  27 |       <button onClick={handleProfile} className="cursor-pointer">
-  28 |         <Image
-> 29 |           src=`${basePath}/images/hero7.jpg`
-     |               ^^^
-  30 |           alt=""
-  31 |           width={22}
-  32 |           height={22}
+  3 | export default function CategoryList() {
+  4 |   return (
+> 5 |     <div className=>
+    |                   ^^
+  6 |
+  7 |     </div>
+  8 |   )
 
-Expected '</', got 'template head'
+Unexpected token `=>`. Expected jsx identifier
 
 Import trace:
   Server Component:
-    ./components/ui/NavIcons.tsx
-    ./components/layout/Navbar.tsx
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:38:28.263] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:38:28.474] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:38:54.643] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:38:55.042] Server  LOG     ✓ Compiled in 46ms
+[00:38:55.167] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:55.477] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:38:55.938] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:38:58.567] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:38:58.844] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:59.467] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:38:59.533] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:39:06.472] Browser ERROR   ./components/category/CategoryList.tsx:7:23
+Parsing ecmascript source code failed
+   5 |     <div className="px-4 overflow-x-scroll">
+   6 |         <div className="flex">
+>  7 |             <Link href=>
+     |                       ^^
+   8 |             </Link>
+   9 |         </div>
+  10 |     </div>
+
+Expected '</', got '=>'
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:39:08.935] Server  LOG     ✓ Compiled in 31ms
+[00:39:09.076] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:39:09.417] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:10.108] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:39:10.468] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:39:17.580] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:39:18.040] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:18.256] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:39:18.577] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:39:18.701] Server  LOG     ✓ Compiled in 0ms
+[00:39:18.889] Server  LOG     ✓ Compiled in 27ms
+[00:39:18.901] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:19.107] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:39:19.422] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:20.116] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:39:20.465] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:39:25.538] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:39:25.870] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:26.464] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:39:26.550] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:39:29.290] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:39:29.495] Server  LOG     ✓ Compiled in 32ms
+[00:39:29.661] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:30.011] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:39:30.177] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:39:30.620] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:39:30.649] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:31.254] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:39:31.412] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:39:31.567] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:39:31.900] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:31.910] Server  LOG     ✓ Compiled in 26ms
+[00:39:32.128] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:39:32.319] Server  LOG     ✓ Compiled in 1ms
+[00:39:32.537] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:32.591] Server  LOG     ✓ Compiled in 43ms
+[00:39:32.780] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:39:33.009] Server  LOG     ✓ Compiled in 2ms
+[00:39:33.202] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:33.465] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:39:33.991] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:39:39.379] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:39:39.687] Server  LOG     ✓ Compiled in 31ms
+[00:39:39.899] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:40.108] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:39:40.350] Server  LOG     ✓ Compiled in 1ms
+[00:39:40.633] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:41.383] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:39:41.465] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:39:42.155] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:39:42.437] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:43.156] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:39:43.458] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:39:44.500] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:39:44.805] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:44.930] Server  LOG     ✓ Compiled in 3ms
+[00:39:45.255] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:39:45.390] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:39:45.563] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:39:45.822] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:46.474] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:39:46.510] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:39:48.463] Browser ERROR   ./components/category/CategoryList.tsx:7:50
+Parsing ecmascript source code failed
+   5 |     <div className="px-4 overflow-x-scroll">
+   6 |         <div className="flex">
+>  7 |             <Link href="/list?cat=test" className=>
+     |                                                  ^^
+   8 |             </Link>
+   9 |         </div>
+  10 |     </div>
+
+Expected '</', got '=>'
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:39:49.718] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:39:50.477] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:51.204] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:39:51.466] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:39:55.934] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:39:56.291] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:56.445] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:39:56.681] Server  LOG     ✓ Compiled in 23ms
+[00:39:56.794] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:57.462] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:39:57.556] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:39:58.895] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:39:59.369] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:59.559] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:39:59.742] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:00.231] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:00.415] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:00.576] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:40:00.762] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:01.460] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:40:01.490] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:40:03.600] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:03.914] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:04.049] Server  LOG     ✓ Compiled in 3ms
+[00:40:04.279] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:40:04.443] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:04.942] Server  LOG     ✓ Compiled in 98ms
+[00:40:04.973] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:40:05.005] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:05.474] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:40:05.731] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:40:06.061] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:06.363] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:06.647] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:40:06.650] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:40:06.782] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:07.128] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:07.350] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:40:07.380] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:40:07.396] Server  LOG     ✓ Compiled in 27ms
+[00:40:07.398] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:40:07.566] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:08.056] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:08.473] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:40:08.730] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:40:11.603] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:11.902] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:12.115] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:40:12.280] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:12.659] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:12.799] Server  LOG     ✓ Compiled in 4ms
+[00:40:12.864] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:40:12.986] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:13.191] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:40:13.216] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:40:13.238] Server  LOG     ✓ Compiled in 25ms
+[00:40:13.359] Server  LOG     ✓ Compiled in 28ms
+[00:40:13.426] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:14.159] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:40:14.473] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:40:15.101] Server  LOG     ✓ Compiled in 51ms
+[00:40:15.215] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:15.579] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:15.775] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:15.984] Server  LOG     ✓ Compiled in 0ms
+[00:40:16.126] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:16.471] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:40:16.844] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:40:18.080] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:18.373] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:19.155] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:40:19.303] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:40:19.424] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:19.779] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:20.471] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:40:20.530] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:40:20.902] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:21.183] Server  LOG     ✓ Compiled in 55ms
+[00:40:21.266] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:21.466] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:40:21.891] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:22.088] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:40:22.165] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:40:22.180] Server  LOG     ✓ Compiled in 0ms
+[00:40:22.264] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:22.468] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:40:22.948] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:40:23.156] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:23.443] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:23.690] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:40:23.918] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:24.316] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:24.425] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:40:24.454] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:40:24.549] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:40:24.675] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:24.969] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:25.469] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:40:25.641] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:40:28.772] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:29.241] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:29.464] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:40:30.062] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:40:31.805] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:32.116] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:32.471] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:40:32.704] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:33.147] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:40:33.166] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:33.166] Server  LOG     ✓ Compiled in 61ms
+[00:40:33.468] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:40:33.794] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:33.978] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:40:34.124] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:34.413] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:40:34.416] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:40:34.572] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:35.147] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:40:35.210] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:35.459] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:40:35.987] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:40:45.938] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[00:40:46.292] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:46.614] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:40:47.348] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:40:47.412] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:48.132] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:41:00.461] Browser ERROR   ./components/category/CategoryList.tsx:10:20
+Parsing ecmascript source code failed
+   8 |             <Link href="/list?cat=test" className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/6">
+   9 |                 <div className="relative w-full h-80">
+> 10 |             </Link>
+     |                    ^
+> 11 |         </div>
+     | ^^^^^^^^^
+  12 |     </div>
+  13 |   )
+  14 | }
+
+Expected '</', got 'jsx text'
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:41:09.460] Browser ERROR   ./components/category/CategoryList.tsx:10:13
+Parsing ecmascript source code failed
+   8 |             <Link href="/list?cat=test" className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/6">
+   9 |                 <div className="relative w-full h-80"><
+> 10 |             </Link>
+     |             ^
+  11 |         </div>
+  12 |     </div>
+  13 |   )
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:41:09.460] Browser ERROR   ./components/category/CategoryList.tsx:10:14
+Parsing ecmascript source code failed
+   8 |             <Link href="/list?cat=test" className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/6">
+   9 |                 <div className="relative w-full h-80"><
+> 10 |             </Link>
+     |              ^^^^^^
+  11 |         </div>
+  12 |     </div>
+  13 |   )
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:41:10.460] Browser ERROR   ./components/category/CategoryList.tsx:10:13
+Parsing ecmascript source code failed
+   8 |             <Link href="/list?cat=test" className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/6">
+   9 |                 <div className="relative w-full h-80"></
+> 10 |             </Link>
+     |             ^
+  11 |         </div>
+  12 |     </div>
+  13 |   )
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:41:10.460] Browser ERROR   ./components/category/CategoryList.tsx:10:14
+Parsing ecmascript source code failed
+   8 |             <Link href="/list?cat=test" className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/6">
+   9 |                 <div className="relative w-full h-80"></
+> 10 |             </Link>
+     |              ^^^^^^
+  11 |         </div>
+  12 |     </div>
+  13 |   )
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:41:12.415] Server  LOG     ✓ Compiled in 35ms
+[00:41:20.574] Server  LOG     ✓ Compiled in 34ms
+[00:41:34.226] Server  LOG     ✓ Compiled in 58ms
+[00:41:35.338] Server  LOG     ✓ Compiled in 56ms
+[00:41:55.877] Server  ERROR   ⨯ ReferenceError: Image is not defined
+[00:41:56.470] Browser ERROR   uncaughtError: ReferenceError: Image is not defined
+[00:41:59.936] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:00.749] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:42:00.757] Server  LOG     ✓ Compiled in 30ms
+[00:42:01.056] Server  LOG     ✓ Compiled in 50ms
+[00:42:03.466] Browser ERROR   ./components/category/CategoryList.tsx:11:17
+Parsing ecmascript source code failed
+   9 |                 <div className="relative bg-slate-100 w-full h-96">
+  10 |                     <
+> 11 |                 </div>
+     |                 ^
+  12 |             </Link>
+  13 |         </div>
+  14 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:42:03.466] Browser ERROR   ./components/category/CategoryList.tsx:11:18
+Parsing ecmascript source code failed
+   9 |                 <div className="relative bg-slate-100 w-full h-96">
+  10 |                     <
+> 11 |                 </div>
+     |                  ^^^^^
+  12 |             </Link>
+  13 |         </div>
+  14 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:42:04.471] Browser ERROR   ./components/category/CategoryList.tsx:11:17
+Parsing ecmascript source code failed
+   9 |                 <div className="relative bg-slate-100 w-full h-96">
+  10 |                     <I
+> 11 |                 </div>
+     |                 ^
+  12 |             </Link>
+  13 |         </div>
+  14 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:42:04.471] Browser ERROR   ./components/category/CategoryList.tsx:11:18
+Parsing ecmascript source code failed
+   9 |                 <div className="relative bg-slate-100 w-full h-96">
+  10 |                     <I
+> 11 |                 </div>
+     |                  ^^^^^
+  12 |             </Link>
+  13 |         </div>
+  14 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:42:04.471] Browser ERROR   ./components/category/CategoryList.tsx:11:17
+Parsing ecmascript source code failed
+   9 |                 <div className="relative bg-slate-100 w-full h-96">
+  10 |                     <Im
+> 11 |                 </div>
+     |                 ^
+  12 |             </Link>
+  13 |         </div>
+  14 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:42:04.471] Browser ERROR   ./components/category/CategoryList.tsx:11:18
+Parsing ecmascript source code failed
+   9 |                 <div className="relative bg-slate-100 w-full h-96">
+  10 |                     <Im
+> 11 |                 </div>
+     |                  ^^^^^
+  12 |             </Link>
+  13 |         </div>
+  14 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:42:04.471] Browser ERROR   ./components/category/CategoryList.tsx:11:17
+Parsing ecmascript source code failed
+   9 |                 <div className="relative bg-slate-100 w-full h-96">
+  10 |                     <Ima
+> 11 |                 </div>
+     |                 ^
+  12 |             </Link>
+  13 |         </div>
+  14 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:42:04.471] Browser ERROR   ./components/category/CategoryList.tsx:11:18
+Parsing ecmascript source code failed
+   9 |                 <div className="relative bg-slate-100 w-full h-96">
+  10 |                     <Ima
+> 11 |                 </div>
+     |                  ^^^^^
+  12 |             </Link>
+  13 |         </div>
+  14 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:42:05.461] Browser ERROR   ./components/category/CategoryList.tsx:11:17
+Parsing ecmascript source code failed
+   9 |                 <div className="relative bg-slate-100 w-full h-96">
+  10 |                     <Imag
+> 11 |                 </div>
+     |                 ^
+  12 |             </Link>
+  13 |         </div>
+  14 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:42:05.461] Browser ERROR   ./components/category/CategoryList.tsx:11:18
+Parsing ecmascript source code failed
+   9 |                 <div className="relative bg-slate-100 w-full h-96">
+  10 |                     <Imag
+> 11 |                 </div>
+     |                  ^^^^^
+  12 |             </Link>
+  13 |         </div>
+  14 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:42:05.461] Browser ERROR   ./components/category/CategoryList.tsx:11:17
+Parsing ecmascript source code failed
+   9 |                 <div className="relative bg-slate-100 w-full h-96">
+  10 |                     <Image
+> 11 |                 </div>
+     |                 ^
+  12 |             </Link>
+  13 |         </div>
+  14 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:42:05.461] Browser ERROR   ./components/category/CategoryList.tsx:11:18
+Parsing ecmascript source code failed
+   9 |                 <div className="relative bg-slate-100 w-full h-96">
+  10 |                     <Image
+> 11 |                 </div>
+     |                  ^^^^^
+  12 |             </Link>
+  13 |         </div>
+  14 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:42:08.475] Browser ERROR   ./components/category/CategoryList.tsx:11:17
+Parsing ecmascript source code failed
+   9 |                 <div className="relative bg-slate-100 w-full h-96">
+  10 |                     <Image/
+> 11 |                 </div>
+     |                 ^
+  12 |             </Link>
+  13 |         </div>
+  14 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:42:08.475] Browser ERROR   ./components/category/CategoryList.tsx:11:18
+Parsing ecmascript source code failed
+   9 |                 <div className="relative bg-slate-100 w-full h-96">
+  10 |                     <Image/
+> 11 |                 </div>
+     |                  ^^^^^
+  12 |             </Link>
+  13 |         </div>
+  14 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:42:08.581] Server  ERROR   ⨯ ReferenceError: Image is not defined
+[00:42:09.468] Browser ERROR   uncaughtError: ReferenceError: Image is not defined
+[00:42:15.758] Server  ERROR   ⨯ ReferenceError: Image is not defined
+[00:42:16.158] Server  LOG     ✓ Compiled in 31ms
+[00:42:16.258] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:16.390] Browser ERROR   uncaughtError: ReferenceError: Image is not defined
+[00:42:16.397] Server  LOG     ✓ Compiled in 26ms
+[00:42:16.526] Server  ERROR   ⨯ ReferenceError: Image is not defined
+[00:42:16.959] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:17.164] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:42:17.184] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:42:17.467] Browser ERROR   uncaughtError: ReferenceError: Image is not defined
+[00:42:19.458] Browser ERROR   ./components/category/CategoryList.tsx:10:33
+Parsing ecmascript source code failed
+   8 |             <Link href="/list?cat=test" className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/6">
+   9 |                 <div className="relative bg-slate-100 w-full h-96">
+> 10 |                     <Image src=/>
+     |                                 ^
+  11 |                 </div>
+  12 |             </Link>
+  13 |         </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:42:21.184] Server  LOG     ✓ Compiled in 28ms
+[00:42:21.185] Browser ERROR   ./components/category/CategoryList.tsx:10:32
+Parsing ecmascript source code failed
+   8 |             <Link href="/list?cat=test" className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/6">
+   9 |                 <div className="relative bg-slate-100 w-full h-96">
+> 10 |                     <Image src="/>
+     |                                ^^^
+> 11 |                 </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^
+> 12 |             </Link>
+     | ^^^^^^^^^^^^^^^^^^^^^^
+> 13 |         </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^
+> 14 |     </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^
+> 15 |   )
+     | ^^^^^^^^^^^^^^^^^^^^^^
+> 16 | }
+     | ^^^^^^^^^^^^^^^^^^^^^^
+> 17 |
+     | ^
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:42:21.316] Server  ERROR   ⨯ ReferenceError: Image is not defined
+[00:42:21.667] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:22.360] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:42:22.460] Browser ERROR   uncaughtError: ReferenceError: Image is not defined
+[00:42:31.839] Server  ERROR   ⨯ ReferenceError: Image is not defined
+[00:42:32.161] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:32.470] Browser ERROR   uncaughtError: ReferenceError: Image is not defined
+[00:42:32.796] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:42:34.033] Server  ERROR   An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+[00:42:34.220] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:34.465] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:42:34.465] Browser ERROR   Image is missing required "src" property: <img>
+[00:42:34.465] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:42:35.075] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:43:00.470] Browser ERROR   uncaughtError: Error: Image with src "https://www.uberprints.com/content/products/flat/800x800/haf170_1_wht.jpg" is missing required "width" property.
+[00:43:49.815] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:50.487] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[00:45:36.460] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true c c true c
+[00:45:37.474] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true cla cla true cla
+[00:45:37.474] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true clas clas true clas
+[00:45:39.457] Browser ERROR   ./components/category/CategoryList.tsx:13:31
+Parsing ecmascript source code failed
+  11 |                     <Image src="https://www.uberprints.com/content/products/flat/800x800/haf170_1_wht.jpg" alt="" fill />
+  12 |                 </div>
+> 13 |                 <h1 className='>Category Name</h1>
+     |                               ^^^^^^^^^^^^^^^^^^^^
+> 14 |             </Link>
+     | ^^^^^^^^^^^^^^^^^^^
+> 15 |         </div>
+     | ^^^^^^^^^^^^^^^^^^^
+> 16 |     </div>
+     | ^^^^^^^^^^^^^^^^^^^
+> 17 |   )
+     | ^^^^^^^^^^^^^^^^^^^
+> 18 | }
+     | ^^^^^^^^^^^^^^^^^^^
+> 19 |
+     | ^
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:45:39.457] Browser ERROR   ./components/category/CategoryList.tsx:13:30
+Parsing ecmascript source code failed
+  11 |                     <Image src="https://www.uberprints.com/content/products/flat/800x800/haf170_1_wht.jpg" alt="" fill />
+  12 |                 </div>
+> 13 |                 <h1 className=>Category Name</h1>
+     |                              ^^
+  14 |             </Link>
+  15 |         </div>
+  16 |     </div>
+
+Expected '</', got '=>'
+
+Import trace:
+  Server Component:
+    ./components/category/CategoryList.tsx
+    ./app/page.tsx
+[00:45:40.256] Server  LOG     ✓ Compiled in 31ms
+[00:45:54.387] Server  LOG     ✓ Compiled in 30ms
+[00:46:31.742] Browser WARN    Image with src "/images/hero7.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:51:06.410] Server  LOG     ✓ Compiled in 102ms
+[00:51:07.776] Server  LOG     ✓ Compiled in 51ms
+[00:51:08.464] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\Frontend Real Projects\e-commerce-app\app\globals.css:30:1: Unknown word .
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:51:26.467] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\Frontend Real Projects\e-commerce-app\app\globals.css:30:1: Unknown word .sc
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:51:26.467] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\Frontend Real Projects\e-commerce-app\app\globals.css:30:1: Unknown word .scr
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:51:37.528] Server  LOG     ✓ Compiled in 52ms
+[00:51:38.464] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\Frontend Real Projects\e-commerce-app\app\globals.css:33:1: Unknown word .
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[01:27:47.307] Server  LOG     ✓ Compiled in 79ms
+[01:30:11.462] Browser ERROR   ./components/layout/Footer.tsx:11:9
+Parsing ecmascript source code failed
+   9 |         <div className="w-1/4">
+  10 |         <
+> 11 |         </div>
+     |         ^
+  12 |         {/* CENTER */}
+  13 |         <div className="w-1/2"></div>
+  14 |         {/* RIGHT */}
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
     ./app/layout.tsx
-[00:17:24.360] Server  LOG     ✓ Compiled in 33ms
-[00:17:26.007] Server  LOG     ✓ Compiled in 9ms
-[00:17:26.316] Server  LOG     ✓ Compiled in 105ms
-[00:17:26.863] Server  LOG     ✓ Compiled in 31ms
-[00:17:27.627] Server  LOG     ✓ Compiled in 97ms
-[00:17:27.696] Server  LOG     ✓ Compiled in 59ms
-[00:17:27.871] Server  LOG     ✓ Compiled in 6ms
-[00:17:28.142] Server  LOG     ✓ Compiled in 4ms
-[00:17:29.430] Server  LOG     ✓ Compiled in 40ms
-[00:17:29.490] Server  LOG     ✓ Compiled in 66ms
-[00:17:35.293] Server  LOG     ✓ Compiled in 32ms
-[00:17:38.794] Server  LOG     ✓ Compiled in 36ms
-[00:31:10.290] Server  LOG     ✓ Compiled in 39ms
-[00:31:10.503] Server  LOG     ✓ Compiled in 3ms
-[00:31:10.761] Server  LOG     ✓ Compiled in 28ms
-[00:31:10.873] Server  LOG     ✓ Compiled in 40ms
-[00:31:11.257] Server  LOG     ✓ Compiled in 91ms
-[00:31:11.781] Server  LOG     ✓ Compiled in 33ms
-[00:31:12.104] Server  LOG     ✓ Compiled in 29ms
-[00:31:12.627] Server  LOG     ✓ Compiled in 32ms
-[00:31:13.162] Server  LOG     ✓ Compiled in 60ms
-[00:31:13.366] Server  LOG     ✓ Compiled in 36ms
-[00:31:13.665] Server  LOG     ✓ Compiled in 36ms
-[00:31:15.695] Server  LOG     ✓ Compiled in 37ms
-[00:33:08.933] Server  LOG     ✓ Compiled in 46ms
-[00:33:08.939] Server  LOG     ✓ Compiled in 30ms
-[00:33:09.451] Server  LOG     ✓ Compiled in 89ms
-[00:33:10.538] Server  LOG     ✓ Compiled in 43ms
-[00:33:10.901] Server  LOG     ✓ Compiled in 35ms
-[00:33:11.581] Server  LOG     ✓ Compiled in 34ms
+[01:30:11.462] Browser ERROR   ./components/layout/Footer.tsx:11:10
+Parsing ecmascript source code failed
+   9 |         <div className="w-1/4">
+  10 |         <
+> 11 |         </div>
+     |          ^^^^^
+  12 |         {/* CENTER */}
+  13 |         <div className="w-1/2"></div>
+  14 |         {/* RIGHT */}
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[01:30:14.468] Browser ERROR   ./components/layout/Footer.tsx:11:9
+Parsing ecmascript source code failed
+   9 |         <div className="w-1/4">
+  10 |         <L
+> 11 |         </div>
+     |         ^
+  12 |         {/* CENTER */}
+  13 |         <div className="w-1/2"></div>
+  14 |         {/* RIGHT */}
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[01:30:14.468] Browser ERROR   ./components/layout/Footer.tsx:11:10
+Parsing ecmascript source code failed
+   9 |         <div className="w-1/4">
+  10 |         <L
+> 11 |         </div>
+     |          ^^^^^
+  12 |         {/* CENTER */}
+  13 |         <div className="w-1/2"></div>
+  14 |         {/* RIGHT */}
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[01:30:14.468] Browser ERROR   ./components/layout/Footer.tsx:11:9
+Parsing ecmascript source code failed
+   9 |         <div className="w-1/4">
+  10 |         <Li
+> 11 |         </div>
+     |         ^
+  12 |         {/* CENTER */}
+  13 |         <div className="w-1/2"></div>
+  14 |         {/* RIGHT */}
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[01:30:14.468] Browser ERROR   ./components/layout/Footer.tsx:11:10
+Parsing ecmascript source code failed
+   9 |         <div className="w-1/4">
+  10 |         <Li
+> 11 |         </div>
+     |          ^^^^^
+  12 |         {/* CENTER */}
+  13 |         <div className="w-1/2"></div>
+  14 |         {/* RIGHT */}
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[01:30:14.468] Browser ERROR   ./components/layout/Footer.tsx:11:9
+Parsing ecmascript source code failed
+   9 |         <div className="w-1/4">
+  10 |         <Lin
+> 11 |         </div>
+     |         ^
+  12 |         {/* CENTER */}
+  13 |         <div className="w-1/2"></div>
+  14 |         {/* RIGHT */}
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[01:30:14.468] Browser ERROR   ./components/layout/Footer.tsx:11:10
+Parsing ecmascript source code failed
+   9 |         <div className="w-1/4">
+  10 |         <Lin
+> 11 |         </div>
+     |          ^^^^^
+  12 |         {/* CENTER */}
+  13 |         <div className="w-1/2"></div>
+  14 |         {/* RIGHT */}
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[01:30:14.468] Browser ERROR   ./components/layout/Footer.tsx:11:9
+Parsing ecmascript source code failed
+   9 |         <div className="w-1/4">
+  10 |         <Link
+> 11 |         </div>
+     |         ^
+  12 |         {/* CENTER */}
+  13 |         <div className="w-1/2"></div>
+  14 |         {/* RIGHT */}
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[01:30:14.469] Browser ERROR   ./components/layout/Footer.tsx:11:10
+Parsing ecmascript source code failed
+   9 |         <div className="w-1/4">
+  10 |         <Link
+> 11 |         </div>
+     |          ^^^^^
+  12 |         {/* CENTER */}
+  13 |         <div className="w-1/2"></div>
+  14 |         {/* RIGHT */}
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[01:30:16.599] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[01:30:16.605] Browser ERROR   ./components/layout/Footer.tsx:11:15
+Parsing ecmascript source code failed
+   9 |         <div className="w-1/4">
+  10 |         <Link>
+> 11 |         </div>
+     |               ^
+> 12 |         {/* CENTER */}
+     | ^^^^^^^^^
+  13 |         <div className="w-1/2"></div>
+  14 |         {/* RIGHT */}
+  15 |         <div className="w-1/4"></div>
+
+Expected '</', got 'jsx text'
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[01:30:16.652] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[01:30:17.468] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[01:30:18.232] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[01:30:18.868] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:30:19.460] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[01:30:19.819] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[01:30:21.259] Server  LOG     ✓ Compiled in 68ms
+[01:30:21.491] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[01:30:22.027] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:30:22.465] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[01:30:22.939] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[01:30:23.840] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[01:30:24.462] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:30:25.462] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[01:30:25.765] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[01:30:29.474] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[01:30:29.981] Server  LOG     ✓ Compiled in 65ms
+[01:30:30.188] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:30:30.468] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[01:30:31.081] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[01:30:34.113] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[01:30:34.532] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:30:35.433] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[01:30:35.468] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[01:30:40.235] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[01:30:40.671] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:30:41.465] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[01:30:41.521] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[01:30:42.066] Server  ERROR   ⨯ Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+[01:30:42.354] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:30:43.196] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[01:30:43.470] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:30:59.446] Server  LOG     ✓ Compiled in 41ms
+[01:30:59.447] Browser ERROR   ./components/layout/Footer.tsx:11:56
+Parsing ecmascript source code failed
+   9 |         {/* LEFT */}
+  10 |         <div className="w-1/4">
+> 11 |         <Link src="/ className="flex items-center gap-3">
+     |                                                        ^^
+  12 |       <div className="text-2xl tracking-wide font-anton font-normal not-italic">VIBEFIT</div>
+  13 |
+  14 |         </Link>
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[01:30:59.447] Browser ERROR   ./components/layout/Footer.tsx:11:55
+Parsing ecmascript source code failed
+   9 |         {/* LEFT */}
+  10 |         <div className="w-1/4">
+> 11 |         <Link src=" className="flex items-center gap-3">
+     |                                                       ^^
+  12 |       <div className="text-2xl tracking-wide font-anton font-normal not-italic">VIBEFIT</div>
+  13 |
+  14 |         </Link>
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[01:30:59.447] Browser ERROR   ./components/layout/Footer.tsx:11:20
+Parsing ecmascript source code failed
+   9 |         {/* LEFT */}
+  10 |         <div className="w-1/4">
+> 11 |         <Link src= className="flex items-center gap-3">
+     |                    ^^^^^^^^^
+  12 |       <div className="text-2xl tracking-wide font-anton font-normal not-italic">VIBEFIT</div>
+  13 |
+  14 |         </Link>
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[01:31:00.088] Server  ERROR   ⨯ Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+[01:31:00.138] Server  LOG     ✓ Compiled in 0ms
+[01:31:00.855] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:31:01.014] Server  LOG     ✓ Compiled in 74ms
+[01:31:01.752] Server  ERROR   ⨯ Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+[01:31:01.778] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:31:01.815] Server  LOG     ✓ Compiled in 35ms
+[01:31:02.081] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:31:02.462] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:31:03.048] Server  ERROR   ⨯ Error: Could not parse module '[project]/components/layout/Footer.tsx'
+
+Expected '</', got 'ident'
+[01:31:03.466] Browser ERROR   ./components/layout/Footer.tsx:11:23
+Parsing ecmascript source code failed
+   9 |         {/* LEFT */}
+  10 |         <div className="w-1/4">
+> 11 |         <Link href={} className="flex items-center gap-3">
+     |                       ^^^^^^^^^
+  12 |       <div className="text-2xl tracking-wide font-anton font-normal not-italic">VIBEFIT</div>
+  13 |
+  14 |         </Link>
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[01:31:06.467] Browser ERROR   ./components/layout/Footer.tsx:14:10
+Parsing ecmascript source code failed
+  12 |       <div className="text-2xl tracking-wide font-anton font-normal not-italic">VIBEFIT</div>
+  13 |
+> 14 |         </Link>
+     |          ^^^^^^
+  15 |         </div>
+  16 |         {/* CENTER */}
+  17 |         <div className="w-1/2"></div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[01:31:06.467] Browser ERROR   ./components/layout/Footer.tsx:11:21
+Parsing ecmascript source code failed
+   9 |         {/* LEFT */}
+  10 |         <div className="w-1/4">
+> 11 |         <Link href= className="flex items-center gap-3">
+     |                     ^^^^^^^^^
+  12 |       <div className="text-2xl tracking-wide font-anton font-normal not-italic">VIBEFIT</div>
+  13 |
+  14 |         </Link>
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[01:31:07.527] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:31:08.524] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[01:31:35.321] Server  LOG     ✓ Compiled in 39ms
+[01:31:36.137] Server  LOG     ✓ Compiled in 34ms
+[01:31:36.610] Server  LOG     ✓ Compiled in 38ms
+[01:31:36.892] Server  LOG     ✓ Compiled in 37ms
+[01:31:37.523] Server  LOG     ✓ Compiled in 38ms
+[01:31:37.759] Server  LOG     ✓ Compiled in 30ms
+[01:31:50.753] Server  LOG     ✓ Compiled in 34ms
+[01:31:51.832] Server  LOG     ✓ Compiled in 29ms
+[01:31:52.335] Server  LOG     ✓ Compiled in 33ms
+[01:32:06.616] Browser WARN    Image with src "/images/hero7.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:33:44.530] Server  LOG     ✓ Compiled in 138ms
+[01:33:45.040] Server  LOG     ✓ Compiled in 45ms
+[01:33:45.515] Server  LOG     ✓ Compiled in 39ms
+[01:34:09.770] Server  LOG     ✓ Compiled in 26ms
+[01:34:31.188] Server  LOG     ✓ Compiled in 35ms
+[02:01:40.359] Server  LOG     ✓ Compiled in 33ms
+[02:01:42.801] Server  LOG     ✓ Compiled in 46ms
+[02:01:46.120] Server  LOG     ✓ Compiled in 124ms
+[02:01:55.761] Server  ERROR   ⨯ ReferenceError: Image is not defined
+[02:01:55.828] Server  ERROR   ⨯ ReferenceError: Image is not defined
+[02:01:56.480] Browser ERROR   uncaughtError: ReferenceError: Image is not defined
+[02:02:04.437] Server  LOG     ✓ Compiled in 47ms
+[02:02:04.597] Server  ERROR   ⨯ ReferenceError: Image is not defined
+[02:02:05.063] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:02:05.477] Browser ERROR   uncaughtError: ReferenceError: Image is not defined
+[02:02:06.195] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[02:02:13.303] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:02:14.204] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[02:02:21.464] Browser ERROR   ./components/layout/Footer.tsx:17:77
+Parsing ecmascript source code failed
+  15 |       <span>+20 123 456 789</span>
+  16 |       <div className="flex gap-6">
+> 17 |         <Image src="/path/to/social-icon1.png" alt="Social Icon 1" width={} height={24} />
+     |                                                                             ^^^^^^
+  18 |         <Image src="/path/to/social-icon2.png" alt="Social Icon 2" width={24} height={24} />
+  19 |         <Image src="/path/to/social-icon3.png" alt="Social Icon 3" width={24} height={24} />
+  20 |       </div>
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:02:26.460] Browser ERROR   ./components/layout/Footer.tsx:17:90
+Parsing ecmascript source code failed
+  15 |       <span>+20 123 456 789</span>
+  16 |       <div className="flex gap-6">
+> 17 |         <Image src="/path/to/social-icon1.png" alt="Social Icon 1" width={16} height={} />
+     |                                                                                          ^
+  18 |         <Image src="/path/to/social-icon2.png" alt="Social Icon 2" width={24} height={24} />
+  19 |         <Image src="/path/to/social-icon3.png" alt="Social Icon 3" width={24} height={24} />
+  20 |       </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:02:50.697] Server  LOG     ✓ Compiled in 30ms
+[02:02:55.768] Server  LOG     ✓ Compiled in 58ms
+[02:02:56.418] Server  LOG     ✓ Compiled in 30ms
+[02:03:23.081] Server  LOG     ✓ Compiled in 30ms
+[02:03:44.987] Server  LOG     ✓ Compiled in 31ms
+[02:03:47.577] Server  LOG     ✓ Compiled in 62ms
+[02:04:16.742] Server  LOG     ✓ Compiled in 69ms
+[02:04:17.279] Server  LOG     ✓ Compiled in 32ms
+[02:06:08.907] Server  LOG     ✓ Compiled in 44ms
+[02:06:09.472] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true cl cl true cl
+[02:06:12.635] Server  ERROR   ⨯ ./components/layout/Footer.tsx:14:22
+Parsing ecmascript source code failed
+  12 |       <div className="text-2xl tracking-wide font-anton font-normal not-italic">VIBEFIT</div>
+  13 |       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quibusdam suscipit, consectetur animi.</p>
+> 14 |       <span className=>hello@vibefit.com</span>
+     |                      ^^
+  15 |       <span className=>+20 123 456 789</span>
+  16 |       <div className="flex gap-6">
+  17 |         <Image src="/images/facebook.png" alt="" width={16} height={16} />
+
+Expected '</', got '=>'
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+
+
+[02:06:13.574] Browser ERROR   ./components/layout/Footer.tsx:14:22
+Parsing ecmascript source code failed
+  12 |       <div className="text-2xl tracking-wide font-anton font-normal not-italic">VIBEFIT</div>
+  13 |       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quibusdam suscipit, consectetur animi.</p>
+> 14 |       <span className=>hello@vibefit.com</span>
+     |                      ^^
+  15 |       <span className=>+20 123 456 789</span>
+  16 |       <div className="flex gap-6">
+  17 |         <Image src="/images/facebook.png" alt="" width={16} height={16} />
+
+Expected '</', got '=>'
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:06:14.013] Server  LOG     ✓ Compiled in 1328ms
+[02:06:17.154] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:06:18.044] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
+[02:06:19.310] Server  LOG     ✓ Compiled in 103ms
+[02:06:22.234] Server  LOG     ✓ Compiled in 54ms
+[02:06:54.530] Server  LOG     ✓ Compiled in 88ms
+[02:06:55.136] Server  LOG     ✓ Compiled in 274ms
+[02:06:58.827] Server  LOG     ✓ Compiled in 62ms
+[02:06:59.322] Server  LOG     ✓ Compiled in 33ms
+[02:09:18.210] Server  LOG     ✓ Compiled in 119ms
+[02:09:19.464] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true cl cl true cl
+[02:09:21.458] Browser ERROR   ./components/layout/Footer.tsx:6:20
+Parsing ecmascript source code failed
+   4 | export default function Footer() {
+   5 |   return (
+>  6 |     <div className='>
+     |                    ^^
+>  7 |       {/* TOP */}
+     | ^^^^^^^^^^^^^^^^^
+>  8 |       <div className="flex justify-between gap-24">
+     | ^^^^^^^^^^^^^^^^^
+>  9 |         {/* LEFT */}
+     | ^^^^^^^^^^^^^^^^^
+> 10 |         <div className="w-1/4 flex flex-col gap-8">
+     | ^^^^^^^^^^^^^^^^^
+> 11 |         <Link href="/" className="flex items-center gap-3">
+     | ^^^^^^^^^^^^^^^^^
+> 12 |       <div className="text-2xl tracking-wide font-anton font-normal not-italic">VIBEFIT</div>
+     | ^^^^^^^^^^^^^^^^^
+> 13 |       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quibusdam suscipit, consectetur animi.</p>
+     | ^^^^^^^^^^^^^^^^^
+> 14 |       <span className="text-semibold">hello@vibefit.com</span>
+     | ^^^^^^^^^^^^^^^^^
+> 15 |       <span className="text-semibold">+20 123 456 789</span>
+     | ^^^^^^^^^^^^^^^^^
+> 16 |       <div className="flex gap-6">
+     | ^^^^^^^^^^^^^^^^^
+> 17 |         <Image src="/images/facebook.png" alt="" width={16} height={16} />
+     | ^^^^^^^^^^^^^^^^^
+> 18 |         <Image src="/images/instagram.png" alt="" width={16} height={16} />
+     | ^^^^^^^^^^^^^^^^^
+> 19 |         <Image src="/images/x.png" alt="" width={16} height={16} />
+     | ^^^^^^^^^^^^^^^^^
+> 20 |         <Image src="/images/pinterest.png" alt="" width={16} height={16} />
+     | ^^^^^^^^^^^^^^^^^
+> 21 |         <Image src="/images/youtube.png" alt="" width={16} height={16} />
+     | ^^^^^^^^^^^^^^^^^
+> 22 |
+     | ^^^^^^^^^^^^^^^^^
+> 23 |       </div>
+     | ^^^^^^^^^^^^^^^^^
+> 24 |
+     | ^^^^^^^^^^^^^^^^^
+> 25 |         </Link>
+     | ^^^^^^^^^^^^^^^^^
+> 26 |         </div>
+     | ^^^^^^^^^^^^^^^^^
+> 27 |         {/* CENTER */}
+     | ^^^^^^^^^^^^^^^^^
+> 28 |         <div className="w-1/2"></div>
+     | ^^^^^^^^^^^^^^^^^
+> 29 |         {/* RIGHT */}
+     | ^^^^^^^^^^^^^^^^^
+> 30 |         <div className="w-1/4"></div>
+     | ^^^^^^^^^^^^^^^^^
+> 31 |
+     | ^^^^^^^^^^^^^^^^^
+> 32 |       </div>
+     | ^^^^^^^^^^^^^^^^^
+> 33 |       {/* BOTTOM */}
+     | ^^^^^^^^^^^^^^^^^
+> 34 |       <div className=""></div>
+     | ^^^^^^^^^^^^^^^^^
+> 35 |     </div>
+     | ^^^^^^^^^^^^^^^^^
+> 36 |   )
+     | ^^^^^^^^^^^^^^^^^
+> 37 | }
+     | ^^^^^^^^^^^^^^^^^
+> 38 |
+     | ^
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:09:22.460] Browser ERROR   ./components/layout/Footer.tsx:6:19
+Parsing ecmascript source code failed
+  4 | export default function Footer() {
+  5 |   return (
+> 6 |     <div className=>
+    |                   ^^
+  7 |       {/* TOP */}
+  8 |       <div className="flex justify-between gap-24">
+  9 |         {/* LEFT */}
+
+Unexpected token `=>`. Expected jsx identifier
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:09:22.477] Server  LOG     ✓ Compiled in 33ms
+[02:10:29.694] Server  LOG     ✓ Compiled in 64ms
+[02:10:30.189] Server  LOG     ✓ Compiled in 180ms
+[02:10:31.376] Server  LOG     ✓ Compiled in 93ms
+[02:10:48.863] Browser WARN    Image with src "/images/hero7.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:27:48.418] Server  LOG     ✓ Compiled in 100ms
+[02:27:49.626] Server  LOG     ✓ Compiled in 94ms
+[02:28:02.892] Server  LOG     ✓ Compiled in 53ms
+[02:28:48.448] Server  LOG     ✓ Compiled in 72ms
+[02:28:58.215] Server  LOG     ✓ Compiled in 53ms
+[02:30:11.785] Server  LOG     ✓ Compiled in 49ms
+[02:30:14.841] Server  LOG     ✓ Compiled in 93ms
+[02:32:44.874] Server  LOG     ✓ Compiled in 36ms
+[02:32:45.287] Server  LOG     ✓ Compiled in 31ms
+[02:32:45.536] Browser ERROR   ./components/layout/Footer.tsx:12:79
+Parsing ecmascript source code failed
+  10 |         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
+  11 |         <Link href="/" className="flex items-center gap-3>
+> 12 |       <div className="text-2xl tracking-wide font-anton font-normal not-italic">VIBEFIT</div>
+     |                                                                               ^^^^^^^^^^^^^^^
+  13 |       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quibusdam suscipit, consectetur animi.</p>
+  14 |       <span className="text-semibold">hello@vibefit.com</span>
+  15 |       <span className="text-semibold">+20 123 456 789</span>
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:32:45.536] Browser ERROR   ./components/layout/Footer.tsx:12:79
+Parsing ecmascript source code failed
+  10 |         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
+  11 |         <Link href="/" className="flex items-center>
+> 12 |       <div className="text-2xl tracking-wide font-anton font-normal not-italic">VIBEFIT</div>
+     |                                                                               ^^^^^^^^^^^^^^^
+  13 |       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quibusdam suscipit, consectetur animi.</p>
+  14 |       <span className="text-semibold">hello@vibefit.com</span>
+  15 |       <span className="text-semibold">+20 123 456 789</span>
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:32:45.536] Browser ERROR   ./components/layout/Footer.tsx:12:79
+Parsing ecmascript source code failed
+  10 |         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
+  11 |         <Link href="/" className="flex >
+> 12 |       <div className="text-2xl tracking-wide font-anton font-normal not-italic">VIBEFIT</div>
+     |                                                                               ^^^^^^^^^^^^^^^
+  13 |       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quibusdam suscipit, consectetur animi.</p>
+  14 |       <span className="text-semibold">hello@vibefit.com</span>
+  15 |       <span className="text-semibold">+20 123 456 789</span>
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:32:45.536] Browser ERROR   ./components/layout/Footer.tsx:12:79
+Parsing ecmascript source code failed
+  10 |         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
+  11 |         <Link href="/" className=">
+> 12 |       <div className="text-2xl tracking-wide font-anton font-normal not-italic">VIBEFIT</div>
+     |                                                                               ^^^^^^^^^^^^^^^
+  13 |       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quibusdam suscipit, consectetur animi.</p>
+  14 |       <span className="text-semibold">hello@vibefit.com</span>
+  15 |       <span className="text-semibold">+20 123 456 789</span>
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:32:46.073] Server  LOG     ✓ Compiled in 37ms
+[02:37:31.841] Server  LOG     ✓ Compiled in 34ms
+[02:38:03.828] Server  LOG     ✓ Compiled in 42ms
+[02:38:20.499] Browser ERROR   ./components/layout/Footer.tsx:31:23
+Parsing ecmascript source code failed
+  29 |         {/* RIGHT */}
+  30 |         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
+> 31 |         <h1 className='>SUBSCRIBE</h1>
+     |                       ^^^^^^^^^^^^^^^^
+> 32 |         </div>
+     | ^^^^^^^^^^^^^^
+> 33 |
+     | ^^^^^^^^^^^^^^
+> 34 |       </div>
+     | ^^^^^^^^^^^^^^
+> 35 |       {/* BOTTOM */}
+     | ^^^^^^^^^^^^^^
+> 36 |       <div className=""></div>
+     | ^^^^^^^^^^^^^^
+> 37 |     </div>
+     | ^^^^^^^^^^^^^^
+> 38 |   )
+     | ^^^^^^^^^^^^^^
+> 39 | }
+     | ^^^^^^^^^^^^^^
+> 40 |
+     | ^
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:38:20.499] Browser ERROR   ./components/layout/Footer.tsx:31:22
+Parsing ecmascript source code failed
+  29 |         {/* RIGHT */}
+  30 |         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
+> 31 |         <h1 className=>SUBSCRIBE</h1>
+     |                      ^^
+  32 |         </div>
+  33 |
+  34 |       </div>
+
+Expected '</', got '=>'
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:38:31.193] Server  LOG     ✓ Compiled in 93ms
+[02:38:34.909] Server  LOG     ✓ Compiled in 63ms
+[02:38:44.938] Server  LOG     ✓ Compiled in 48ms
+[02:38:50.200] Server  LOG     ✓ Compiled in 66ms
+[02:38:52.782] Server  LOG     ✓ Compiled in 30ms
+[02:39:18.256] Server  LOG     ✓ Compiled in 31ms
+[02:39:57.547] Server  LOG     ✓ Compiled in 69ms
+[02:39:59.107] Server  LOG     ✓ Compiled in 33ms
+[02:39:59.356] Server  LOG     ✓ Compiled in 33ms
+[02:40:06.652] Server  LOG     ✓ Compiled in 36ms
+[02:40:10.528] Server  LOG     ✓ Compiled in 31ms
+[02:40:12.063] Server  LOG     ✓ Compiled in 111ms
+[02:40:14.276] Server  LOG     ✓ Compiled in 32ms
+[02:40:35.355] Server  LOG     ✓ Compiled in 76ms
+[02:41:03.890] Server  LOG     ✓ Compiled in 73ms
+[02:41:07.569] Server  LOG     ✓ Compiled in 37ms
+[02:41:44.839] Server  LOG     ✓ Compiled in 32ms
+[02:41:49.272] Server  LOG     ✓ Compiled in 34ms
+[02:41:51.242] Server  LOG     ✓ Compiled in 34ms
+[02:44:30.385] Server  LOG     ✓ Compiled in 44ms
+[02:44:40.445] Server  LOG     ✓ Compiled in 36ms
+[02:44:40.531] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true c c true c
+[02:44:42.461] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true clas clas true clas
+[02:44:44.203] Server  LOG     ✓ Compiled in 78ms
+[02:44:44.469] Browser ERROR   ./components/layout/Footer.tsx:36:27
+Parsing ecmascript source code failed
+  34 |           <input type="text" placeholder="Email address" className="p-4 w-3/4" />
+  35 |           <button className="w-1/4 bg-black text-white">JOIN</button>
+> 36 |           <span className='>Secure Payments</span>
+     |                           ^^^^^^^^^^^^^^^^^^^^^^^^
+> 37 |         </div>
+     | ^^^^^^^^^^^^^^
+> 38 |         </div>
+     | ^^^^^^^^^^^^^^
+> 39 |
+     | ^^^^^^^^^^^^^^
+> 40 |       </div>
+     | ^^^^^^^^^^^^^^
+> 41 |       {/* BOTTOM */}
+     | ^^^^^^^^^^^^^^
+> 42 |       <div className=""></div>
+     | ^^^^^^^^^^^^^^
+> 43 |     </div>
+     | ^^^^^^^^^^^^^^
+> 44 |   )
+     | ^^^^^^^^^^^^^^
+> 45 | }
+     | ^^^^^^^^^^^^^^
+> 46 |
+     | ^
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:44:44.469] Browser ERROR   ./components/layout/Footer.tsx:36:26
+Parsing ecmascript source code failed
+  34 |           <input type="text" placeholder="Email address" className="p-4 w-3/4" />
+  35 |           <button className="w-1/4 bg-black text-white">JOIN</button>
+> 36 |           <span className=>Secure Payments</span>
+     |                          ^^
+  37 |         </div>
+  38 |         </div>
+  39 |
+
+Expected '</', got '=>'
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:44:51.283] Server  LOG     ✓ Compiled in 34ms
+[02:44:52.080] Server  LOG     ✓ Compiled in 31ms
+[02:45:14.026] Server  LOG     ✓ Compiled in 35ms
+[02:45:14.725] Server  LOG     ✓ Compiled in 68ms
+[02:49:28.181] Server  LOG     ✓ Compiled in 28ms
+[02:49:28.578] Browser ERROR   ./components/layout/Footer.tsx:38:59
+Parsing ecmascript source code failed
+  36 |           <span className="font-semibold">Secure Payments</span>
+  37 |           <div className="flex justify-between">
+> 38 |             <Image src="/images/visa.png" alt="" width={} height={16} />
+     |                                                           ^^^^^^
+  39 |
+  40 |           </div>
+  41 |         </div>
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:49:28.578] Server  LOG     ✓ Compiled in 35ms
+[02:49:34.177] Server  LOG     ✓ Compiled in 45ms
+[02:49:35.466] Browser ERROR   ./components/layout/Footer.tsx:38:72
+Parsing ecmascript source code failed
+  36 |           <span className="font-semibold">Secure Payments</span>
+  37 |           <div className="flex justify-between">
+> 38 |             <Image src="/images/visa.png" alt="" width={40} height={} />
+     |                                                                        ^
+  39 |
+  40 |           </div>
+  41 |         </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:50:10.835] Server  LOG     ✓ Compiled in 34ms
+[02:50:11.228] Server  LOG     ✓ Compiled in 34ms
+[02:50:15.712] Server  LOG     ✓ Compiled in 38ms
+[02:50:24.674] Server  LOG     ✓ Compiled in 36ms
+[02:50:25.036] Server  LOG     ✓ Compiled in 34ms
+[02:50:29.767] Server  LOG     ✓ Compiled in 89ms
+[02:50:30.490] Server  LOG     ✓ Compiled in 167ms
+[02:50:31.304] Server  LOG     ✓ Compiled in 38ms
+[02:51:55.094] Server  LOG     ✓ Compiled in 50ms
+[02:52:58.464] Browser ERROR   ./components/layout/Footer.tsx:54:1
+Parsing ecmascript source code failed
+  52 |     </div>
+  53 |   )
+> 54 | }
+     | ^
+  55 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:53:06.605] Browser ERROR   ./components/layout/Footer.tsx:55:1
+Parsing ecmascript source code failed
+  53 |     </div>
+  54 |   )
+> 55 | }
+     | ^
+  56 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:59:10.912] Server  LOG     ✓ Compiled in 120ms
+[02:59:32.472] Browser ERROR   ./components/layout/Footer.tsx:57:1
+Parsing ecmascript source code failed
+  55 |     </div>
+  56 |   )
+> 57 | }
+     | ^
+  58 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:59:39.462] Browser ERROR   ./components/layout/Footer.tsx:32:9
+Parsing ecmascript source code failed
+  30 |             <h1 className="font-medium text-lg">SHOP</h1>
+  31 |             <Link href
+> 32 |         </div>
+     |         ^
+  33 |         {/* RIGHT */}
+  34 |         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
+  35 |         <h1 className="font-medium text-lg">SUBSCRIBE</h1>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:59:39.462] Browser ERROR   ./components/layout/Footer.tsx:32:10
+Parsing ecmascript source code failed
+  30 |             <h1 className="font-medium text-lg">SHOP</h1>
+  31 |             <Link href
+> 32 |         </div>
+     |          ^^^^^
+  33 |         {/* RIGHT */}
+  34 |         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
+  35 |         <h1 className="font-medium text-lg">SUBSCRIBE</h1>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:59:52.464] Browser ERROR   ./components/layout/Footer.tsx:32:9
+Parsing ecmascript source code failed
+  30 |             <h1 className="font-medium text-lg">SHOP</h1>
+  31 |             <Link hre
+> 32 |         </div>
+     |         ^
+  33 |         {/* RIGHT */}
+  34 |         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
+  35 |         <h1 className="font-medium text-lg">SUBSCRIBE</h1>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:59:52.464] Browser ERROR   ./components/layout/Footer.tsx:32:10
+Parsing ecmascript source code failed
+  30 |             <h1 className="font-medium text-lg">SHOP</h1>
+  31 |             <Link hre
+> 32 |         </div>
+     |          ^^^^^
+  33 |         {/* RIGHT */}
+  34 |         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
+  35 |         <h1 className="font-medium text-lg">SUBSCRIBE</h1>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:59:53.471] Browser ERROR   ./components/layout/Footer.tsx:32:9
+Parsing ecmascript source code failed
+  30 |             <h1 className="font-medium text-lg">SHOP</h1>
+  31 |             <Link
+> 32 |         </div>
+     |         ^
+  33 |         {/* RIGHT */}
+  34 |         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
+  35 |         <h1 className="font-medium text-lg">SUBSCRIBE</h1>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:59:53.471] Browser ERROR   ./components/layout/Footer.tsx:32:10
+Parsing ecmascript source code failed
+  30 |             <h1 className="font-medium text-lg">SHOP</h1>
+  31 |             <Link
+> 32 |         </div>
+     |          ^^^^^
+  33 |         {/* RIGHT */}
+  34 |         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
+  35 |         <h1 className="font-medium text-lg">SUBSCRIBE</h1>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:59:53.471] Browser ERROR   ./components/layout/Footer.tsx:32:9
+Parsing ecmascript source code failed
+  30 |             <h1 className="font-medium text-lg">SHOP</h1>
+  31 |             <Lin
+> 32 |         </div>
+     |         ^
+  33 |         {/* RIGHT */}
+  34 |         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
+  35 |         <h1 className="font-medium text-lg">SUBSCRIBE</h1>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:59:53.471] Browser ERROR   ./components/layout/Footer.tsx:32:10
+Parsing ecmascript source code failed
+  30 |             <h1 className="font-medium text-lg">SHOP</h1>
+  31 |             <Lin
+> 32 |         </div>
+     |          ^^^^^
+  33 |         {/* RIGHT */}
+  34 |         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
+  35 |         <h1 className="font-medium text-lg">SUBSCRIBE</h1>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:59:53.471] Browser ERROR   ./components/layout/Footer.tsx:32:9
+Parsing ecmascript source code failed
+  30 |             <h1 className="font-medium text-lg">SHOP</h1>
+  31 |             <Li
+> 32 |         </div>
+     |         ^
+  33 |         {/* RIGHT */}
+  34 |         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
+  35 |         <h1 className="font-medium text-lg">SUBSCRIBE</h1>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:59:53.471] Browser ERROR   ./components/layout/Footer.tsx:32:10
+Parsing ecmascript source code failed
+  30 |             <h1 className="font-medium text-lg">SHOP</h1>
+  31 |             <Li
+> 32 |         </div>
+     |          ^^^^^
+  33 |         {/* RIGHT */}
+  34 |         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
+  35 |         <h1 className="font-medium text-lg">SUBSCRIBE</h1>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:59:53.471] Browser ERROR   ./components/layout/Footer.tsx:32:9
+Parsing ecmascript source code failed
+  30 |             <h1 className="font-medium text-lg">SHOP</h1>
+  31 |             <L
+> 32 |         </div>
+     |         ^
+  33 |         {/* RIGHT */}
+  34 |         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
+  35 |         <h1 className="font-medium text-lg">SUBSCRIBE</h1>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:59:53.471] Browser ERROR   ./components/layout/Footer.tsx:32:10
+Parsing ecmascript source code failed
+  30 |             <h1 className="font-medium text-lg">SHOP</h1>
+  31 |             <L
+> 32 |         </div>
+     |          ^^^^^
+  33 |         {/* RIGHT */}
+  34 |         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
+  35 |         <h1 className="font-medium text-lg">SUBSCRIBE</h1>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:59:54.463] Browser ERROR   ./components/layout/Footer.tsx:32:9
+Parsing ecmascript source code failed
+  30 |             <h1 className="font-medium text-lg">SHOP</h1>
+  31 |             <
+> 32 |         </div>
+     |         ^
+  33 |         {/* RIGHT */}
+  34 |         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
+  35 |         <h1 className="font-medium text-lg">SUBSCRIBE</h1>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:59:54.463] Browser ERROR   ./components/layout/Footer.tsx:32:10
+Parsing ecmascript source code failed
+  30 |             <h1 className="font-medium text-lg">SHOP</h1>
+  31 |             <
+> 32 |         </div>
+     |          ^^^^^
+  33 |         {/* RIGHT */}
+  34 |         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
+  35 |         <h1 className="font-medium text-lg">SUBSCRIBE</h1>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[02:59:54.463] Browser ERROR   ./components/layout/Footer.tsx:59:1
+Parsing ecmascript source code failed
+  57 |     </div>
+  58 |   )
+> 59 | }
+     | ^
+  60 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:00:01.460] Browser ERROR   ./components/layout/Footer.tsx:59:1
+Parsing ecmascript source code failed
+  57 |     </div>
+  58 |   )
+> 59 | }
+     | ^
+  60 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:00:01.460] Browser ERROR   ./components/layout/Footer.tsx:59:1
+Parsing ecmascript source code failed
+  57 |     </div>
+  58 |   )
+> 59 | }
+     | ^
+  60 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:00:01.460] Browser ERROR   ./components/layout/Footer.tsx:59:1
+Parsing ecmascript source code failed
+  57 |     </div>
+  58 |   )
+> 59 | }
+     | ^
+  60 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:00:01.460] Browser ERROR   ./components/layout/Footer.tsx:59:1
+Parsing ecmascript source code failed
+  57 |     </div>
+  58 |   )
+> 59 | }
+     | ^
+  60 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:00:02.467] Browser ERROR   ./components/layout/Footer.tsx:59:1
+Parsing ecmascript source code failed
+  57 |     </div>
+  58 |   )
+> 59 | }
+     | ^
+  60 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:00:05.465] Browser ERROR   ./components/layout/Footer.tsx:59:1
+Parsing ecmascript source code failed
+  57 |     </div>
+  58 |   )
+> 59 | }
+     | ^
+  60 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:00:17.593] Browser ERROR   ./components/layout/Footer.tsx:59:1
+Parsing ecmascript source code failed
+  57 |     </div>
+  58 |   )
+> 59 | }
+     | ^
+  60 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:00:17.593] Browser ERROR   ./components/layout/Footer.tsx:59:1
+Parsing ecmascript source code failed
+  57 |     </div>
+  58 |   )
+> 59 | }
+     | ^
+  60 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:00:17.593] Browser ERROR   ./components/layout/Footer.tsx:59:1
+Parsing ecmascript source code failed
+  57 |     </div>
+  58 |   )
+> 59 | }
+     | ^
+  60 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:00:17.593] Browser ERROR   ./components/layout/Footer.tsx:59:1
+Parsing ecmascript source code failed
+  57 |     </div>
+  58 |   )
+> 59 | }
+     | ^
+  60 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:00:18.464] Browser ERROR   ./components/layout/Footer.tsx:59:1
+Parsing ecmascript source code failed
+  57 |     </div>
+  58 |   )
+> 59 | }
+     | ^
+  60 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:00:18.464] Browser ERROR   ./components/layout/Footer.tsx:59:1
+Parsing ecmascript source code failed
+  57 |     </div>
+  58 |   )
+> 59 | }
+     | ^
+  60 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:00:18.464] Browser ERROR   ./components/layout/Footer.tsx:59:1
+Parsing ecmascript source code failed
+  57 |     </div>
+  58 |   )
+> 59 | }
+     | ^
+  60 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:00:20.466] Browser ERROR   ./components/layout/Footer.tsx:59:1
+Parsing ecmascript source code failed
+  57 |     </div>
+  58 |   )
+> 59 | }
+     | ^
+  60 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:00:23.146] Server  LOG     ✓ Compiled in 84ms
+[03:00:28.921] Server  LOG     ✓ Compiled in 84ms
+[03:00:29.940] Server  LOG     ✓ Compiled in 108ms
+[03:00:30.596] Server  LOG     ✓ Compiled in 240ms
+[03:00:30.826] Server  LOG     ✓ Compiled in 152ms
+[03:00:30.974] Server  LOG     ✓ Compiled in 85ms
+[03:00:31.655] Server  LOG     ✓ Compiled in 97ms
+[03:00:39.327] Server  LOG     ✓ Compiled in 112ms
+[03:00:43.629] Server  LOG     ✓ Compiled in 60ms
+[03:00:43.972] Server  LOG     ✓ Compiled in 121ms
+[03:00:48.761] Server  LOG     ✓ Compiled in 302ms
+[03:00:49.296] Server  LOG     ✓ Compiled in 53ms
+[03:00:57.086] Server  LOG     ✓ Compiled in 79ms
+[03:01:14.057] Server  LOG     ✓ Compiled in 66ms
+[03:01:16.660] Server  LOG     ✓ Compiled in 204ms
+[03:01:21.466] Browser ERROR   ./components/layout/Footer.tsx:62:7
+Parsing ecmascript source code failed
+  60 |
+  61 |       </div>
+> 62 |       {/* BOTTOM */}
+     |       ^
+  63 |       <div className=""></div>
+  64 |     </div>
+  65 |   )
+
+Expected ',', got '{'
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:01:26.469] Browser ERROR   ./components/layout/Footer.tsx:63:7
+Parsing ecmascript source code failed
+  61 |
+  62 |       </div>
+> 63 |       {/* BOTTOM */}
+     |       ^
+  64 |       <div className=""></div>
+  65 |     </div>
+  66 |   )
+
+Expected ',', got '{'
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:01:32.459] Browser ERROR   ./components/layout/Footer.tsx:62:7
+Parsing ecmascript source code failed
+  60 |
+  61 |       </div>
+> 62 |       {/* BOTTOM */}
+     |       ^
+  63 |       <div className=""></div>
+  64 |     </div>
+  65 |   )
+
+Expected ',', got '{'
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:01:33.318] Server  LOG     ✓ Compiled in 79ms
+[03:01:45.466] Browser ERROR   ./components/layout/Footer.tsx:37:13
+Parsing ecmascript source code failed
+  35 |               <Link href="/">Blog</Link>
+  36 |               <
+> 37 |             </div>
+     |             ^
+  38 |           </div>
+  39 |         </div>
+  40 |         {/* RIGHT */}
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:01:45.466] Browser ERROR   ./components/layout/Footer.tsx:37:14
+Parsing ecmascript source code failed
+  35 |               <Link href="/">Blog</Link>
+  36 |               <
+> 37 |             </div>
+     |              ^^^^^
+  38 |           </div>
+  39 |         </div>
+  40 |         {/* RIGHT */}
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:01:46.462] Browser ERROR   ./components/layout/Footer.tsx:37:13
+Parsing ecmascript source code failed
+  35 |               <Link href="/">Blog</Link>
+  36 |               <l
+> 37 |             </div>
+     |             ^
+  38 |           </div>
+  39 |         </div>
+  40 |         {/* RIGHT */}
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:01:46.462] Browser ERROR   ./components/layout/Footer.tsx:37:14
+Parsing ecmascript source code failed
+  35 |               <Link href="/">Blog</Link>
+  36 |               <l
+> 37 |             </div>
+     |              ^^^^^
+  38 |           </div>
+  39 |         </div>
+  40 |         {/* RIGHT */}
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:01:48.460] Browser ERROR   ./components/layout/Footer.tsx:37:13
+Parsing ecmascript source code failed
+  35 |               <Link href="/">Blog</Link>
+  36 |               <
+> 37 |             </div>
+     |             ^
+  38 |           </div>
+  39 |         </div>
+  40 |         {/* RIGHT */}
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:01:48.460] Browser ERROR   ./components/layout/Footer.tsx:37:14
+Parsing ecmascript source code failed
+  35 |               <Link href="/">Blog</Link>
+  36 |               <
+> 37 |             </div>
+     |              ^^^^^
+  38 |           </div>
+  39 |         </div>
+  40 |         {/* RIGHT */}
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:01:50.463] Browser ERROR   ./components/layout/Footer.tsx:37:13
+Parsing ecmascript source code failed
+  35 |               <Link href="/">Blog</Link>
+  36 |               <L
+> 37 |             </div>
+     |             ^
+  38 |           </div>
+  39 |         </div>
+  40 |         {/* RIGHT */}
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:01:50.463] Browser ERROR   ./components/layout/Footer.tsx:37:14
+Parsing ecmascript source code failed
+  35 |               <Link href="/">Blog</Link>
+  36 |               <L
+> 37 |             </div>
+     |              ^^^^^
+  38 |           </div>
+  39 |         </div>
+  40 |         {/* RIGHT */}
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:01:52.672] Server  LOG     ✓ Compiled in 106ms
+[03:01:52.742] Browser ERROR   ./components/layout/Footer.tsx:37:13
+Parsing ecmascript source code failed
+  35 |               <Link href="/">Blog</Link>
+  36 |               <Link
+> 37 |             </div>
+     |             ^
+  38 |           </div>
+  39 |         </div>
+  40 |         {/* RIGHT */}
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:01:52.742] Browser ERROR   ./components/layout/Footer.tsx:37:14
+Parsing ecmascript source code failed
+  35 |               <Link href="/">Blog</Link>
+  36 |               <Link
+> 37 |             </div>
+     |              ^^^^^
+  38 |           </div>
+  39 |         </div>
+  40 |         {/* RIGHT */}
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:02:13.400] Server  LOG     ✓ Compiled in 100ms
+[03:02:16.573] Server  LOG     ✓ Compiled in 68ms
+[03:02:20.206] Server  LOG     ✓ Compiled in 67ms
+[03:02:21.357] Server  LOG     ✓ Compiled in 163ms
+[03:02:23.676] Server  LOG     ✓ Compiled in 161ms
+[03:02:25.834] Server  LOG     ✓ Compiled in 43ms
+[03:04:49.540] Server  LOG     ✓ Compiled in 55ms
+[03:04:51.153] Server  LOG     ✓ Compiled in 94ms
+[03:04:51.918] Server  LOG     ✓ Compiled in 99ms
+[03:04:52.629] Server  LOG     ✓ Compiled in 124ms
+[03:05:01.432] Server  LOG     ✓ Compiled in 107ms
+[03:05:02.470] Server  LOG     ✓ Compiled in 105ms
+[03:05:09.752] Server  LOG     ✓ Compiled in 79ms
+[03:05:10.001] Server  LOG     ✓ Compiled in 45ms
+[03:05:14.263] Server  LOG     ✓ Compiled in 152ms
+[03:05:26.321] Server  LOG     ✓ Compiled in 119ms
+[03:05:26.453] Server  LOG     ✓ Compiled in 98ms
+[03:05:30.634] Server  LOG     ✓ Compiled in 94ms
+[03:05:33.144] Server  LOG     ✓ Compiled in 194ms
+[03:05:36.305] Server  LOG     ✓ Compiled in 98ms
+[03:05:37.723] Server  LOG     ✓ Compiled in 45ms
+[03:05:38.746] Server  LOG     ✓ Compiled in 43ms
+[03:05:43.823] Server  LOG     ✓ Compiled in 77ms
+[03:05:45.202] Server  LOG     ✓ Compiled in 50ms
+[03:05:45.646] Server  LOG     ✓ Compiled in 41ms
+[03:05:52.771] Server  LOG     ✓ Compiled in 120ms
+[03:05:53.266] Server  LOG     ✓ Compiled in 52ms
+[03:05:54.716] Server  LOG     ✓ Compiled in 57ms
+[03:05:56.547] Server  LOG     ✓ Compiled in 216ms
+[03:05:58.274] Server  LOG     ✓ Compiled in 55ms
+[03:05:59.092] Server  LOG     ✓ Compiled in 89ms
+[03:05:59.493] Server  LOG     ✓ Compiled in 65ms
+[03:06:00.642] Server  LOG     ✓ Compiled in 61ms
+[03:06:01.074] Server  LOG     ✓ Compiled in 38ms
+[03:06:02.284] Server  LOG     ✓ Compiled in 42ms
+[03:06:13.182] Server  LOG     ✓ Compiled in 76ms
+[03:06:13.548] Server  LOG     ✓ Compiled in 91ms
+[03:06:15.049] Server  LOG     ✓ Compiled in 75ms
+[03:06:27.602] Server  LOG     ✓ Compiled in 49ms
+[03:06:28.441] Server  LOG     ✓ Compiled in 57ms
+[03:06:29.502] Server  LOG     ✓ Compiled in 65ms
+[03:06:30.923] Server  LOG     ✓ Compiled in 93ms
+[03:06:32.625] Server  LOG     ✓ Compiled in 164ms
+[03:06:36.172] Server  LOG     ✓ Compiled in 50ms
+[03:06:36.517] Server  LOG     ✓ Compiled in 48ms
+[03:06:44.220] Server  LOG     ✓ Compiled in 101ms
+[03:06:44.604] Server  LOG     ✓ Compiled in 59ms
+[03:06:45.663] Server  LOG     ✓ Compiled in 83ms
+[03:06:46.940] Server  LOG     ✓ Compiled in 174ms
+[03:06:49.491] Server  LOG     ✓ Compiled in 166ms
+[03:06:50.373] Server  LOG     ✓ Compiled in 70ms
+[03:06:56.742] Server  LOG     ✓ Compiled in 115ms
+[03:06:57.101] Server  LOG     ✓ Compiled in 48ms
+[03:06:59.241] Server  LOG     ✓ Compiled in 136ms
+[03:07:03.665] Server  LOG     ✓ Compiled in 55ms
+[03:07:06.012] Server  LOG     ✓ Compiled in 39ms
+[03:07:06.905] Server  LOG     ✓ Compiled in 39ms
+[03:07:07.286] Server  LOG     ✓ Compiled in 62ms
+[03:07:07.835] Server  LOG     ✓ Compiled in 65ms
+[03:07:08.704] Server  LOG     ✓ Compiled in 128ms
+[03:07:15.874] Server  LOG     ✓ Compiled in 67ms
+[03:07:16.104] Server  LOG     ✓ Compiled in 82ms
+[03:07:16.418] Server  LOG     ✓ Compiled in 172ms
+[03:07:18.238] Server  LOG     ✓ Compiled in 86ms
+[03:07:19.961] Server  LOG     ✓ Compiled in 79ms
+[03:07:20.492] Server  LOG     ✓ Compiled in 60ms
+[03:07:21.187] Server  LOG     ✓ Compiled in 59ms
+[03:46:58.854] Server  LOG     ✓ Compiled in 51ms
+[03:46:59.170] Server  LOG     ✓ Compiled in 58ms
+[03:47:00.283] Server  LOG     ✓ Compiled in 177ms
+[03:47:07.159] Server  LOG     ✓ Compiled in 32ms
+[03:47:07.393] Server  LOG     ✓ Compiled in 36ms
+[03:47:08.014] Server  LOG     ✓ Compiled in 53ms
+[03:47:08.952] Server  LOG     ✓ Compiled in 230ms
+[03:47:15.169] Server  LOG     ✓ Compiled in 52ms
+[03:48:30.469] Browser ERROR   ./components/layout/Footer.tsx:45:15
+Parsing ecmascript source code failed
+  43 |               <Link href="/">Men</Link>
+  44 |               <Link
+> 45 |               <Link href="/">All Products</Link>
+     |               ^
+  46 |             </div>
+  47 |           </div><div className="flex flex-col justify-between">
+  48 |             <h1 className="font-medium text-lg">Help</h1>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:48:31.470] Browser ERROR   ./components/layout/Footer.tsx:46:19
+Parsing ecmascript source code failed
+  44 |               <Link href="/">
+  45 |               <Link href="/">All Products</Link>
+> 46 |             </div>
+     |                   ^
+> 47 |           </div><div className="flex flex-col justify-between">
+     | ^^^^^^^^^^^
+  48 |             <h1 className="font-medium text-lg">Help</h1>
+  49 |             <div className="flex flex-col gap-6">
+  50 |               <Link href="/">Customer Service</Link>
+
+Expected '</', got 'jsx text'
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[03:48:34.069] Server  LOG     ✓ Compiled in 30ms
+[03:49:06.269] Server  LOG     ✓ Compiled in 31ms
+[03:49:08.399] Server  LOG     ✓ Compiled in 36ms
+[03:49:09.380] Server  LOG     ✓ Compiled in 95ms
+[03:49:09.896] Server  LOG     ✓ Compiled in 32ms
+[03:49:10.382] Server  LOG     ✓ Compiled in 37ms
+[03:49:14.536] Server  LOG     ✓ Compiled in 56ms
+[03:49:24.359] Server  LOG     ✓ Compiled in 40ms
+[04:07:02.731] Server  LOG     ✓ Compiled in 51ms
+[04:12:37.494] Browser ERROR   The tag <%s> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter. d
+[04:12:38.464] Browser ERROR   The tag <%s> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter. di
+[04:12:56.469] Browser ERROR   ./components/layout/Footer.tsx:105:1
+Parsing ecmascript source code failed
+  103 |     </div>
+  104 |   );
+> 105 | }
+      | ^
+  106 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[04:13:06.468] Browser ERROR   ./components/layout/Footer.tsx:105:1
+Parsing ecmascript source code failed
+  103 |     </div>
+  104 |   );
+> 105 | }
+      | ^
+  106 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[04:13:07.464] Browser ERROR   ./components/layout/Footer.tsx:105:1
+Parsing ecmascript source code failed
+  103 |     </div>
+  104 |   );
+> 105 | }
+      | ^
+  106 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[04:13:07.464] Browser ERROR   ./components/layout/Footer.tsx:105:1
+Parsing ecmascript source code failed
+  103 |     </div>
+  104 |   );
+> 105 | }
+      | ^
+  106 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[04:13:10.465] Browser ERROR   ./components/layout/Footer.tsx:105:1
+Parsing ecmascript source code failed
+  103 |     </div>
+  104 |   );
+> 105 | }
+      | ^
+  106 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[04:13:10.465] Browser ERROR   ./components/layout/Footer.tsx:105:1
+Parsing ecmascript source code failed
+  103 |     </div>
+  104 |   );
+> 105 | }
+      | ^
+  106 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[04:13:11.457] Browser ERROR   ./components/layout/Footer.tsx:105:1
+Parsing ecmascript source code failed
+  103 |     </div>
+  104 |   );
+> 105 | }
+      | ^
+  106 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[04:13:13.473] Browser ERROR   ./components/layout/Footer.tsx:105:1
+Parsing ecmascript source code failed
+  103 |     </div>
+  104 |   );
+> 105 | }
+      | ^
+  106 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[04:13:14.462] Browser ERROR   ./components/layout/Footer.tsx:105:1
+Parsing ecmascript source code failed
+  103 |     </div>
+  104 |   );
+> 105 | }
+      | ^
+  106 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[04:13:14.462] Browser ERROR   ./components/layout/Footer.tsx:105:1
+Parsing ecmascript source code failed
+  103 |     </div>
+  104 |   );
+> 105 | }
+      | ^
+  106 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[04:14:34.212] Server  LOG     ✓ Compiled in 32ms
+[04:14:35.224] Server  LOG     ✓ Compiled in 52ms
+[04:17:19.468] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true cn cn true cn
+[04:17:19.468] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true cna cna true cna
+[04:17:23.287] Server  LOG     ✓ Compiled in 60ms
+[04:17:58.749] Server  LOG     ✓ Compiled in 25ms
+[04:17:59.145] Server  LOG     ✓ Compiled in 33ms
+[04:17:59.442] Server  LOG     ✓ Compiled in 29ms
+[04:17:59.879] Server  LOG     ✓ Compiled in 49ms
+[04:18:06.557] Server  LOG     ✓ Compiled in 27ms
+[04:34:17.378] Server  LOG     ✓ Compiled in 31ms
+[04:37:17.923] Server  LOG     ✓ Compiled in 27ms
+[04:37:18.754] Server  LOG     ✓ Compiled in 80ms
+[04:39:17.215] Server  LOG     ✓ Compiled in 102ms
+[04:39:17.764] Server  LOG     ✓ Compiled in 113ms
+[04:39:18.406] Server  LOG     ✓ Compiled in 108ms
+[04:45:35.628] Server  LOG     ✓ Compiled in 39ms
+[04:45:35.984] Server  LOG     ✓ Compiled in 31ms
+[04:45:36.419] Server  LOG     ✓ Compiled in 72ms
