@@ -1,6 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+const basePath = process.env.NODE_ENV === 'production' ? '/VIBEFIT' : '';
+
+
 export default function Footer() {
   return (
     <div className="py-24 px-4 md:px-8 lg:px-16 xl:32 2xl:px-64 bg-gray-100 text-sm mt-24">
@@ -20,21 +23,21 @@ export default function Footer() {
             <span className="text-semibold">hello@vibefit.com</span>
             <span className="text-semibold">+20 123 456 789</span>
             <div className="flex gap-6">
-              <Image src="/images/facebook.png" alt="" width={16} height={16} />
+              <Image src={`${basePath}/images/facebook.png`} alt="" width={16} height={16} />
               <Image
-                src="/images/instagram.png"
+                src={`${basePath}/images/instagram.png`}
                 alt=""
                 width={16}
                 height={16}
               />
-              <Image src="/images/x.png" alt="" width={16} height={16} />
+              <Image src={`${basePath}/images/x.png`} alt="" width={16} height={16} />
               <Image
-                src="/images/pinterest.png"
+                src={`${basePath}/images/pinterest.png`}
                 alt=""
                 width={16}
                 height={16}
               />
-              <Image src="/images/youtube.png" alt="" width={16} height={16} />
+              <Image src={`${basePath}/images/youtube.png`} alt="" width={16} height={16} />
             </div>
         </div>
         {/* CENTER */}
@@ -87,11 +90,11 @@ export default function Footer() {
           </div>
           <span className="font-semibold">Secure Payments</span>
           <div className="flex justify-between">
-            <Image src="/images/visa.png" alt="" width={40} height={20} />
-            <Image src="/images/mastercard.png" alt="" width={40} height={20} />
-            <Image src="/images/skrill.png" alt="" width={40} height={20} />
-            <Image src="/images/paypal.png" alt="" width={40} height={20} />
-            <Image src="/images/discover.png" alt="" width={40} height={20} />
+            <Image src={`${basePath}/images/visa.png`} alt="" width={40} height={20} />
+            <Image src={`${basePath}/images/mastercard.png`} alt="" width={40} height={20} />
+            <Image src={`${basePath}/images/skrill.png`} alt="" width={40} height={20} />
+            <Image src={`${basePath}/images/paypal.png`} alt="" width={40} height={20} />
+            <Image src={`${basePath}/images/discover.png`} alt="" width={40} height={20} />
           </div>
         </div>
       </div>

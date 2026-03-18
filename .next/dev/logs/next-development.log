@@ -2672,3 +2672,27 @@ If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.
 [04:45:35.628] Server  LOG     ✓ Compiled in 39ms
 [04:45:35.984] Server  LOG     ✓ Compiled in 31ms
 [04:45:36.419] Server  LOG     ✓ Compiled in 72ms
+[04:55:36.850] Server  LOG     ✓ Compiled in 68ms
+[04:56:10.465] Browser ERROR   ./components/layout/Footer.tsx:28:21
+Parsing ecmascript source code failed
+  26 |               <Image src="/images/facebook.png" alt="" width={16} height={16} />
+  27 |               <Image
+> 28 |                 src=`${basePath}/images/hero2.jpg`
+     |                     ^^^
+  29 |                 alt=""
+  30 |                 width={16}
+  31 |                 height={16}
+
+Expected '</', got 'template head'
+
+Import trace:
+  Server Component:
+    ./components/layout/Footer.tsx
+    ./app/layout.tsx
+[04:56:15.386] Server  LOG     ✓ Compiled in 71ms
+[04:56:16.460] Browser WARN    Image with src "http://localhost:3002/images/hero2.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:56:21.121] Server  LOG     ✓ Compiled in 34ms
+[04:56:21.719] Server  LOG     ✓ Compiled in 29ms
+[04:56:21.721] Server  LOG     ✓ Compiled in 52ms
+[04:56:22.251] Server  LOG     ✓ Compiled in 27ms
+[04:56:23.625] Server  ERROR   ⨯ Error: Page "/[slug]/page" is missing param "/[slug]" in "generateStaticParams()", which is required with "output: export" config.
